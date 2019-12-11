@@ -36,6 +36,13 @@ public class MainViewFragment extends Fragment {
     }
 
 
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+    }
+
+
+
 
     private Button btn_add;
     private Button btn_view;
